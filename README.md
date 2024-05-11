@@ -14,6 +14,10 @@ Real Estate Website pages
 
 
 
+<img width="1459" alt="image" src="https://github.com/ychandiniml/Real_Estate_Web_App/assets/104729699/09af025d-370a-4827-b969-0651b34a4046">
+
+
+
 <img width="1375" alt="image" src="https://github.com/ychandiniml/Real_Estate_Web_App/assets/104729699/fae882b0-c9be-4377-a582-b6b2ecd61db7">
 
 
@@ -23,10 +27,6 @@ Real Estate Website pages
 
 
 <img width="1389" alt="image" src="https://github.com/ychandiniml/Real_Estate_Web_App/assets/104729699/a9c1eedb-a8d4-4bb1-b0a4-ffe724c0e7e0">
-
-
-
-<img width="1459" alt="image" src="https://github.com/ychandiniml/Real_Estate_Web_App/assets/104729699/09af025d-370a-4827-b969-0651b34a4046">
 
 
 
