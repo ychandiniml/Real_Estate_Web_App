@@ -41,25 +41,25 @@ function App() {
         },
       ],
     },
-    // {
-    //   path: "/",
-    //   element: <RequireAuth />,
-    //   children: [
-    //     {
-    //       path: "/profile",
-    //       element: <ProfilePage />,
-    //       loader: profilePageLoader
-    //     },
-    //     {
-    //       path: "/profile/update",
-    //       element: <ProfileUpdatePage />,
-    //     },
-    //     {
-    //       path: "/add",
-    //       element: <NewPostPage />,
-    //     },
-    //   ],
-    // },
+    {
+      path: "/",
+      element: <RequireAuth />,
+      children: [
+        {
+          path: "/profile",
+          element: <ProfilePage />,
+          loader: profilePageLoader
+        },
+        {
+          path: "/profile/update",
+          element: <ProfileUpdatePage />,
+        },
+        {
+          path: "/add",
+          element: <NewPostPage />,
+        },
+      ],
+    },
   ]);
 
   return <RouterProvider router={router} />;
