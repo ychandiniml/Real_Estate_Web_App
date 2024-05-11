@@ -37,11 +37,12 @@ export const getChats = async (req, res) => {
 
 export const getChat = async (req, res) => {
   const tokenUserId = req.userId;
+  const chatId = req.params.id.trim(); 
 
   try {
     const chat = await prisma.chat.findUnique({
       where: {
-        id: req.params.id,
+        id: chatId,
         userIDs: {
           hasSome: [tokenUserId],
         },
@@ -57,11 +58,11 @@ export const getChat = async (req, res) => {
 
     await prisma.chat.update({
       where: {
-        id: req.params.id,
+        id: chatId,
       },
       data: {
         seenBy: {
-          push: [tokenUserId],
+          push: tokenUserId,
         },
       },
     });
